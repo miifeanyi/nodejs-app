@@ -6,7 +6,7 @@ const port = 3000;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello World and welcome to the world of Docker');
+  res.end('Hello World and welcome to world of Docker');
 });
 
 server.listen(port, hostname, () => {
